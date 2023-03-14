@@ -1,0 +1,69 @@
+body{
+    background-color:rgb(171, 208, 191);
+  
+}
+#form-reg {
+    width: 600px;
+    margin: 30px auto;
+    border: 0.2px solid rgb(231, 229, 229);
+    border-radius: 5px;
+    padding: 30px;
+    height: 630px;
+    background-color: white;
+    }
+#form-reg p{
+    text-align: center;
+}
+    input[type=text], input[type=password] ,input[type=tel],input[type=email]{
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-left: 110px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    }
+    #gioitinh{
+        margin-left: 120px;
+    }  
+    #nam{
+        margin-left: 70px;
+    }
+    #nu{
+        margin-left: 70px;
+    }
+    #ngaysinh{
+        margin-left: 270px;
+        margin-top: -30px;
+        margin-bottom: 20px;
+    }
+    #btnreg {
+    background-color: rgb(108, 153, 132);
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 60%;
+    margin-left: 110px;
+    }
+      
+    #btnreg:hover {
+    opacity: 0.8;
+    }
+
+  
+    #linkreg{
+        color: rgb(117, 117, 212);
+        font-size:14px;
+        text-decoration: none;
+    }
+    #linkreg:hover{
+        text-decoration:underline;
+    }
+   #show-btn2{
+    margin-left: -30px;
+   }
+.show-btn{
+    margin-left: -30px;
+   }
